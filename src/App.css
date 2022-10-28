@@ -1,0 +1,33 @@
+.App{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  column-gap: 30px;
+  gap: 30px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.User_Main{
+ width: 250px;
+ height: 300px;
+ border: 1px solid;
+}
+.User_Main h3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 50px;
+  border: 1px solid black;
+  position: relative;
+  left: 150px;
+  bottom: 10px;
+
+}
+.User_Main img {
+  position: relative;
+  left: 50px;
+}
